@@ -38,14 +38,15 @@ class Home extends Component {
 
     let coures_modules = [...this.state.coures_modules]
 
-
     coures_modules.map( data => {
       data.active = false
     })
 
+
     item.active = !item.active
 
     coures_modules[item.id - 1] = item
+
 
     // console.log(coures_modules)
     // debugger

@@ -16,7 +16,7 @@ class Table extends Component {
         <ActiveItem handleVideoChange={handleVideoChange} key={data.id} title={data.title} description={data.description} /> :
         <Item handleVideoChange={handleVideoChange} key={data.id} title={data.title} description={data.description} />
       )
-  })
+    })
 
     return (
       <div className="pt-5 pb-5">
