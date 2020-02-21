@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   root "pages#index"
+
+  resources :todos
+
   get 'episodes', to: 'pages#episodes'
 
   get 'welcome/index'

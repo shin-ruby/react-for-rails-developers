@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom'
 import 'bootstrap/dist/css/bootstrap.css'
 import Home from '../components/Home/Home'
 import Welcome from '../components/Welcome/Welcome'
-import Todos from '../components/Todo/Todos'
+import Todos from '../components/Todo/Index'
 
 
 
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
     // <Home />,
     // <Welcome />,
-    <Todos />
+    <Todos />,
     document.body.appendChild(document.createElement('div')),
   )
 })
