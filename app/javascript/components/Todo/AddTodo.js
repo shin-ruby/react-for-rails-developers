@@ -11,6 +11,7 @@ export default class AddTodo extends Component {
     this.setState({ title: '' })
   }
 
+  // [e.target.value] 等于 title
   onChange = (e) => this.setState({
     [e.target.name]: e.target.value
   })
