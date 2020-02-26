@@ -1,0 +1,7 @@
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Include:
+    - app/models/**/*
+    - lib/**/*
